@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scryer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="hero-wrapper">
+        <div class="hero-nav">
+            <a href="./index.html">Scryer</a>
+            <a href="./about.html">About</a>
+        </div>
+        <div class="hero-about">
+        <div class="center-content">
+            <h1>About</h1>
+        </div>
+    </div>
+    </header>
+    <div class="about-wrapper">
+        <h2>What is this?</h2>
+        <p>This was created as a passion project becuase I constantly found myself checking multiple places for vocab/terms/slang/ etc used when playing Magic: The Gathering. I could not find
+            a single place where I could easily search/filter/find words that I was reading and hearing in a quick way. </p>
+
+            <p>
+            It is mosly vanilla HTML/CSS/JS with the exception of <a href="https://handlebarsjs.com/">Handlebars.js</a> for generating templating of the actual glossary data. 
+        </p>
+
+        <p>This website is OSS and can be found on <a href="">GitHub.</a> Please feel free to contribute to the addition of words or with any corrections you see that could be made. </p>
+
+        <h2>Credits</h2>
+        <p>The following resourches were used when gathering this content:</p>
+        <ul>
+            <li><a href="https://mtg.fandom.com/wiki/List_of_Magic_slang">MtG Fandom</a></li>
+            <li><a href="https://magic.wizards.com/en/keyword-glossary">MtG Keywords</a></li>
+            <li><a href="https://magic.wizards.com/en/news/feature/glossary-of-terms">MtG Glossary</a></li>
+        </ul>
+    </div>
+    </div>
+    <footer>
+        <br />&copy 2025 <br />
+        Made by <a href="https://leblanc.sh">LeBlanc Engineering.</a> 
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
