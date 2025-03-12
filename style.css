@@ -1,17 +1,18 @@
 :root {
-    --black: #39393a;
-    --green: #95BF74;
-    --blue: #297373;
-    --white: #E8EBF7;
-    --orange: #D78521;
-  }
-
+    --black: #373e40;
+    --green: #305252;
+    --blue: #488286;
+    --white: #b7d5d4;
+    --orange: #d8c99b;
+}
 
 body {
     height: 100%;
-    background-color: var(--white);
+    background-color: var(--blue);
     color: var(--black);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .wrapper {
@@ -25,17 +26,18 @@ body {
 
 .hero-wrapper {
     flex-grow: 2;
-    background-image: url("https://i.postimg.cc/Z5Dv5BQZ/temp-Image-Ldqgvl.avif");
+    /* background-image: url("https://i.postimg.cc/Z5Dv5BQZ/temp-Image-Ldqgvl.avif"); */
+    background-image: url("./img/gradient-image.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
-    0 8px 8px rgba(0, 0, 0, 0.1),
-    0 16px 16px rgba(0, 0, 0, 0.1), 
-    0 32px 32px rgba(0, 0, 0, 0.15),
-    0 64px 64px rgba(0, 0, 0, 0.15);
+    box-shadow:
+        0 4px 4px rgba(0, 0, 0, 0.1),
+        0 8px 8px rgba(0, 0, 0, 0.1),
+        0 16px 16px rgba(0, 0, 0, 0.1),
+        0 32px 32px rgba(0, 0, 0, 0.15),
+        0 64px 64px rgba(0, 0, 0, 0.15);
 }
-
 
 .hero {
     width: 100wh;
@@ -120,13 +122,14 @@ input {
 }
 
 .glossary-item {
-    border: 2px solid var(--blue);
+    border: 2px solid var(--orange);
     border-radius: 10px;
     margin: 10px;
     padding: 0px;
     flex-grow: 1;
     flex-shrink: 2;
     flex-basis: 20%;
+    background-color: var(--white);
 }
 
 .glossary-def {
@@ -137,6 +140,7 @@ input {
     text-decoration: uppercase;
     font-size: 40px;
     font-weight: bold;
+    color: var(--orange);
     font-family: "Grenze Gotisch", serif;
     background-color: var(--green);
     border-radius: 10px 10px 0px 0px;
@@ -146,7 +150,6 @@ input {
 .about-wrapper {
     min-height: 500px;
     margin-left: 20px;
-
 }
 
 .about-wrapper h2 {
@@ -154,13 +157,11 @@ input {
     font-size: 54px;
 }
 
-
 .about-wrapper a {
     text-decoration: none;
     color: var(--orange);
     font-weight: bold;
 }
-
 
 footer {
     margin-top: 40px;
